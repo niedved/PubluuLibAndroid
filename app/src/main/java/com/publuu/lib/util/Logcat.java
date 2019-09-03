@@ -10,7 +10,6 @@ import com.publuu.lib.BuildConfig;
  */
 
 public final class Logcat {
-
     public static void e(String tag, String msg) {
         if (BuildConfig.DEBUG) {
             Log.e(tag, msg);
